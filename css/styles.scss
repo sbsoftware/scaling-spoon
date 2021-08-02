@@ -3,8 +3,7 @@
 @import 'top_app_bar';
 @import 'menu';
 
-html, body {
-  display: flex;
+html, body, main {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -13,6 +12,10 @@ html, body {
 
   --mt-primary-color: #FF0000;
   --mt-secondary-color: #00FF00;
+}
+
+body {
+  display: flex;
 }
 
 .content {
