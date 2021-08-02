@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
   menuSwitches.forEach((menuSwitch) => {
     menuSwitch.addEventListener("click", (e) => {
       menu.classList.toggle(menuActiveClass);
+
+      e.preventDefault();
+      e.stopPropagation();
     });
   });
 });
