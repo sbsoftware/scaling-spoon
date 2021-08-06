@@ -1,5 +1,5 @@
 #menu {
-  width: 18rem;
+  width: 17rem;
   height: 100vh;
   background-color: var(--mt-primary-color);
 
@@ -7,12 +7,11 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 56px;
-    padding-top: 10px;
 
     li {
       background-color: var(--mt-primary-color);
       padding: 10px;
+      font-size: 24px;
     }
   }
 
@@ -25,6 +24,8 @@
 #drawer-header {
   display: flex;
   justify-content: space-between;
+  height: 56px;
+  padding: 2px;
 
   img {
     height: 56px;
