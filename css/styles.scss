@@ -18,6 +18,10 @@ body {
   display: flex;
 }
 
+main {
+  max-width: 800px;
+}
+
 .content {
   padding: 0 1em;
 }
