@@ -24,16 +24,27 @@
 
 #drawer-header {
   display: flex;
+  justify-content: space-between;
 
   img {
-    width: 80%;
+    height: 56px;
+  }
+
+  .menu-switch {
+    margin: 16px;
   }
 }
 
 .menu-switch {
   display: none;
 
-  text-decoration: none;
+  &::after {
+    display: block;
+    background-image: url('./icons/menu_black_24dp.svg');
+    width: 24px;
+    height: 24px;
+    content: "";
+  }
 }
 
 @media (max-width: 50rem) {
