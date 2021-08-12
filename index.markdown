@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Test
+title: Andreas Bilharz
 ---
 
-## Test2 .bla
+## Privatpraxis für Physiotherapie und Osteopathie am Lederberg
 
-## Test
+Herzlich willkommen!
+
+Auf den folgenden Seiten möchte ich Ihnen einen Überblick über das Leistungsspektrum meiner Praxis geben und hoffe, Sie bald persönlich begrüßen zu dürfen.
