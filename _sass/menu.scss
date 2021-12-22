@@ -2,6 +2,8 @@
   width: 17rem;
   height: 100vh;
   background-color: var(--mt-primary-color);
+  color: var(--mt-primary-font-color);
+  box-shadow: 5px 0 5px -2px #888;
 
   ul {
     list-style: none;
@@ -10,6 +12,7 @@
 
     li {
       background-color: var(--mt-primary-color);
+      color: var(--mt-primary-font-color);
       padding: 10px;
       font-size: 24px;
     }
@@ -42,6 +45,7 @@
   &::after {
     display: block;
     background-image: url('./icons/menu_black_24dp.svg');
+    color: var(--mt-primary-font-color);
     width: 24px;
     height: 24px;
     content: "";

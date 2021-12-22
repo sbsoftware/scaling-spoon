@@ -1,6 +1,8 @@
 #top-app-bar {
   display: flex;
   background-color: var(--mt-primary-color);
+  color: var(--mt-primary-font-color);
+  box-shadow: 3px 3px 5px -2px #888;
 
   > * {
     padding: 16px;
